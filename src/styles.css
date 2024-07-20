@@ -1,0 +1,51 @@
+/* src/styles.css */
+
+/* Define light and dark theme colors using CSS variables */
+:root {
+  --background-color-light: #f4f4f4;
+  --background-color-dark: #333;
+  --text-color-light: #333;
+  --text-color-dark: #f4f4f4;
+  --legend-color-light: #000;
+  --legend-color-dark: #fff;
+}
+
+[data-theme='light'] {
+  --background-color: var(--background-color-light);
+  --text-color: var(--text-color-light);
+  --legend-color: var(--legend-color-light);
+}
+
+[data-theme='dark'] {
+  --background-color: var(--background-color-dark);
+  --text-color: var(--text-color-dark);
+  --legend-color: var(--legend-color-dark);
+}
+
+/* Apply global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+/* App Bar Styles */
+.MuiAppBar-root {
+  margin-bottom: 20px;
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navigation Buttons */
+.MuiButton-root {
+  margin: 0 10px;
+}
+
+/* Theme Toggle Icon */
+.MuiIconButton-root {
+  margin-left: 16px;
+}

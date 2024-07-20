@@ -1,0 +1,17 @@
+/* src/components/Calendar.css */
+
+/* Calendar Container */
+.calendar-container {
+  background: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  height: 600px; /* Adjust height as needed */
+  color: var(--text-color); /* Ensure text is visible */
+}
+
+/* Adjustments for calendar events */
+.MuiTypography-root {
+  margin-bottom: 10px;
+  color: var(--text-color); /* Ensure text is visible */
+}

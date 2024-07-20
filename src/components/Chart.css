@@ -1,0 +1,11 @@
+/* src/components/Chart.css */
+
+/* Chart Container */
+.chart-container {
+  background: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  color: var(--text-color); /* Ensure text is visible */
+}

@@ -1,0 +1,31 @@
+/* src/components/DataTable.css */
+
+/* Table Container */
+.table-container {
+  background: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  overflow: auto;
+}
+
+/* Table Styles */
+.MuiTable-root {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.MuiTableCell-root, .MuiTableHead-root {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: var(--text-color); /* Ensure text is visible */
+}
+
+.MuiTableRow-root:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.MuiTableHead-root {
+  background-color: #f1f1f1;
+}
